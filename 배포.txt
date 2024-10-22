@@ -16,7 +16,7 @@
 5. 검색창에 Elastic Beanstalk를 검색하고 이동한다.
 환경 -> 환경 생성을 누른다음 '환경 구성' 화면이 나타나면
 - 애플리케이션 이름 : springboot-developler
-- 플랫폼 : java(Correto 17)
+- 플랫폼 : java(Correto 17) (환경에 맞는 언어)
 - 플랫폼 브랜치 : Corretto 17 running on 64bit Amazon Linux 2023
 을 순서대로 입력해준뒤 다음 버튼을 누른다.
 
@@ -41,7 +41,7 @@
 
 10. 환경 목록에 방금 우리가 생성한 프로젝트 상태가 OK로 보이는지 체크 하고
 해당 환경이름 URL을 클릭해서 도메인에 접속이 잘되는지 확인해준다.
-(Congratulations 에 파란 화면이 나온다면 성공)
+(Congratulations이 나온다면 성공)
 
 11. elasticbeanstalk에서 RDS 생성하기
 - elasticbeanstalk검색 -> 환경 -> (만든 프로젝트)구성에 네트워킹 및 데이터베이스에서 
